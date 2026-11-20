@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming Week 9 — Batsuren Anar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            background: #171D2E;
+            color: #EDF0FF;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            width: 100%;
+            max-width: 650px;
+            padding: 42px;
+            border: 1px solid #8791C2;
+            border-radius: 22px;
+            background: #222D43;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, .25);
+        }
+
+        .eyebrow {
+            color: #B7A2FF;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            margin: 12px 0;
+            font-size: 36px;
+        }
+
+        p {
+            color: #C3C9E8;
+            line-height: 1.7;
+        }
+
+        .details {
+            margin-top: 28px;
+            padding: 18px;
+            border: 1px solid #8791C2;
+            border-radius: 14px;
+        }
+
+        .details p {
+            margin: 8px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 11px 18px;
+            border-radius: 12px;
+            background: #B7A2FF;
+            color: #171D2E;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background: #D0C2FF;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #C3C9E8;
+            font-size: 12px;
+        }
+
+        @media (max-width: 500px) {
+            main {
+                padding: 26px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p class="eyebrow">GACHON UNIVERSITY · WEB PROGRAMMING</p>
+
+        <h1>Week 9 Homework</h1>
+
+        <p>
+            This page was created as part of my Web Programming
+            coursework to practice Git, GitHub, and GitHub Pages.
+        </p>
+
+        <section class="details">
+            <p><strong>Name:</strong> Batsuren Anar</p>
+            <p><strong>University:</strong> Gachon University</p>
+            <p><strong>Course:</strong> Web Programming</p>
+            <p><strong>Date:</strong> 20 November 2026</p>
+        </section>
+
+        <a href="https://github.com/The-Anar/webpro-w9">
+            View GitHub Repository
+        </a>
+
+        <footer>
+            BATSUREN ANAR · GACHON UNIVERSITY
+        </footer>
+    </main>
+</body>
+</html>
